@@ -6,4 +6,4 @@ age = input("Enter your age: ")
 age = int(age)
 print(age +1)
 
-print("you will be" + str(age+1)+ "next year")
+print(f"you will be {age+1} next year")
